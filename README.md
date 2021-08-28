@@ -4,7 +4,7 @@ This package to protect your laravel web app from SQLI , XSS , RFI , RCE , AND L
 ## Installations
 1. Run Command below 
 ```bash
-composer create-project icwrtech/underwaf
+composer require icwrtech/underwaf
 ```
 2. Insert into your provider in ````config/app.php```` file
 ```php
