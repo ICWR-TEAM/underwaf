@@ -35,10 +35,16 @@ return [
 
 				 '#\b(cat (.*)|uname (.*))\b#',
 
+			],
+			"rfi"=>[
+				    '#(http|ftp){1,1}(s){0,1}://.*#i',
+			],
+			"lfi"=>[
+				                '#\.\/#is',
 			]
 	],
 
-		"all_pattern" => ["underwaf.pattern.sqli","underwaf.pattern.xss","underwaf.pattern.command_injection"]
+		"all_pattern" => ["underwaf.pattern.sqli","underwaf.pattern.xss","underwaf.pattern.command_injection","underwaf.pattern.rfi","underwaf.pattern.lfi"]
 		
 	
 		
