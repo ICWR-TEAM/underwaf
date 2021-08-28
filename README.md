@@ -1,5 +1,4 @@
-# Underwaf - Opensource Laravel Firewall by ICWR - TECH
----
+# Underwaf - Opensource Laravel Firewall
 This package to protect your laravel web app from SQLI , XSS , RFI , RCE , AND LFI attacks. With this package all malicious input request will blocked and write on laravel log as Alert Log.
 
 ## Installations
