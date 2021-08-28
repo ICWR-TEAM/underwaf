@@ -1,0 +1,19 @@
+{
+    "name": "icwrtech/underwaf",
+    "description": "Underwaf - Laravel Firewall by LunaticTech",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmad Dwiyan",
+            "email": "ahmad.dwiyan14@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Icwrtech\\Underwaf\\":"src/"
+        }
+    }
+}
